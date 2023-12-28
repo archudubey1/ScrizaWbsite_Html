@@ -7,8 +7,8 @@ body {
 }
 /* ===========================Navbar 1============== */
 .first-nav {
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 9%;
+  margin-right: 9%;
 }
 .button-mob {
   border-radius: 50px;
@@ -23,7 +23,7 @@ body {
 .bacground-color {
   display: flex;
   background-color: #000;
-  height: 10.5vh;
+  height: 12.2vh;
   width: 10vw;
   align-items: center;
   justify-content: center;
@@ -31,25 +31,68 @@ body {
 .nav-second-de {
   align-items: center;
   margin-top: -1%;
-  margin-right: 10%;
+  margin-right: 9%;
+  height: 12vh !important;
+  
 }
 .content-p {
   align-items: center;
 }
 .boder-p {
   border-right: 2px solid #ebf1f6;
-  height: 30px;
+  height: 25px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+.firstnav-font{
+  font-size: 15px;
+  font-weight: 500;
+  align-items: center !important;
+}
 
+.hrafternav{
+  margin-top: 0.3% !important;
+}
+.addres-size{
+  font-size: 14px !important;
+  font-weight: 400 !important;
+}
+.boder-p-sale {
+  border-left: 2px solid #ebf1f6;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 /* ======================nav second==================== */
 .get-start {
   width: 200px;
   height: 40px;
   background: #000 !important;
   color: #fff;
+  position: relative;
+  overflow: hidden;
+  border: none;
+}
+.get-start::before {
+  content: "";
+    position: absolute;
+    /* top: 0; */
+    /* right: 0; */
+    width: 50px;
+    height: 50px;
+    background-color: #FF7017;
+    border-radius: 50%;
+    margin-top: 11px;
+    margin-left: 131px;
+}
+.withdripdowna{
+  display: block;
+
+}
+.withoutdropdown{
+  display: none ;
 }
 .nav-menu {
   font-size: 14px;
@@ -76,7 +119,7 @@ body {
   color: #000;
 }
 .text-bold {
-  font-size: 50px;
+  font-size: 64px;
   font-weight: 900;
   color: #000;
 }
@@ -85,7 +128,28 @@ body {
   height: 60px;
   background: #000 !important;
   color: #fff;
+  position: relative;
+  overflow: hidden;
+  border: none;
 }
+.button-p::before {
+  content: "";
+    position: absolute;
+    /* top: 0; */
+    /* right: 0; */
+    width: 50px;
+    height: 50px;
+    background-color: #FF7017;
+    border-radius: 50%;
+    margin-top: 19px;
+    margin-left: 185px;
+}
+.innivative-p{
+  color: #008479;
+  font-size: 17px;
+  font-weight: 650;
+}
+
 .circle {
   height: 50px;
   width: 50px;
@@ -151,6 +215,7 @@ h2 {
   height: 45px;
   background: #000 !important;
   color: #fff;
+  
 }
 /* ===================================================================img-w===== */
 .img-rectengle14 {
@@ -189,7 +254,7 @@ h2 {
 /* ============================================================customer-solution====================== */
 .customer-solution {
   /* background-image: url("./Images/Rectangle\ 18.png"); */
-  
+  /* background: rgba(0, 0, 0, 0.70); */
   
 background: linear-gradient(83deg, rgba(255, 255, 255, 0.89) 59.62%, rgba(255, 255, 255, 0.00) 82.66%),url("./Images/Rectangle\ 18.png");
 background-size: cover;
@@ -245,7 +310,7 @@ background-size: cover;
   display: flex;
     background-color: #fff;
     /* height: auto; */
-    width: 90%;
+    width: 92%;
     border: 1px solid #EBF1F6;
     margin-top: -150px;
     
@@ -380,7 +445,7 @@ box-shadow: 0px 4px 22px 0px #E3E6EB;
   font-size: 14px;
 }
 .p-size-font{
-  font-size: 14px;
+  font-size: 13px;
 }
 /* =======================================================================Our clients simply love our work  */
 .iverted{
@@ -422,9 +487,8 @@ font-weight: 400;
 
 
 .background-linear{
-  height: 100vh;
+  height: 1581px;
   width: 100vw;
-  /* background: linear-gradient(180deg, #f2f9fc 58.43%, rgba(243, 251, 254, 0.00) 100%); */
   
   background: linear-gradient(90deg,rgba(215, 212, 250, 0) 90%,#edf6ff 23%)
   
@@ -432,3 +496,225 @@ font-weight: 400;
 .b-ppggg {
   border-color: #fff;
 }
+.read-more{
+  color: #5A6772;
+font-size: 14px;
+font-weight: 400;
+letter-spacing: 4.8px;
+}
+.recharge{
+  font-weight: 500;
+}
+.vision-mgback{
+  /* background:rgba(0, 0, 0, 0.70), url("./Images/Rectangle\ 53.png"); */
+  /* background: rgba(0, 0, 0, 0.70); */
+  
+background: linear-gradient(83deg, rgba(0, 0, 0, 0.70) 100%, rgba(255, 255, 255, 0.00) 82.66%),url("./Images/Rectangle\ 53.png");
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 400px;
+  /* width: 800px; */
+  /* background: rgba(0, 0, 0, 0.70); */
+
+}
+.vision-p{
+  font-size: 30px;
+  font-weight: 700;
+}
+.top-color{
+  margin-top: 20%;
+
+}
+
+.hwform-g{
+  background-color: #F7FCFE;
+  width: 80%;
+}
+.contact{
+  background-color: #F7FCFE;
+  width: 80%;
+}
+.input-b{
+  background-color: #F7FCFE;
+
+}
+.submitbtn{
+  background-color: #FF7017;
+  width: 80%;
+  color: #fff;
+  border-radius: 0% !important;
+}
+.mesage{
+  width: 80%;
+  height: 250px;
+  background-color: #F7FCFE;
+  
+}
+.btn:hover{
+  background-color:#FF7017 ;
+  font-size: 17px;
+  color: #ffff;
+  
+  
+}
+.aditional input{
+  height: 50px !important;
+  border-radius:0% !important;
+}
+.aditional button{
+  height: 50px !important;
+}
+/* =====================subscribe============== */
+.input-btn{
+  display: flex;
+  height: 20%;
+  width: 90%;
+}
+.subscribe{
+  display: flex;
+ 
+  text-align: start;
+  align-items: center;
+  justify-content: center;
+  background-color: #008479;
+  height: 150px;
+  margin-top: -5%;
+  position: absolute;
+}
+.int-he{
+  height: 55px;
+  
+
+}
+.btn-pp{
+  background-color: #FF7017;
+}
+/* ===================================================footer==== */
+.main-footer{
+  position: relative;
+  margin-top: 15%;
+}
+footer{
+  background-color: #F5F6F8;
+  /* position: relative; */
+  height: auto;
+  width: 100vw;
+}
+ul li{
+  font-size: 14px;
+
+}
+.google-z{
+  height: 50px;
+  width: 230px;
+}
+.imgg-p{
+  height: 69px;
+}
+.boder-p2 {
+  border-right: 2px solid #BFC8CF;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.line{
+  width: 100%;
+  height: 1px;
+  background-color: #DAE0E4;
+}
+.img-4{
+  margin-top: 35px;
+}
+
+
+  
+
+/* ==============================================Responsive design===================================================== */
+/* ##### media Query ####  */
+
+
+@media screen and (max-width: 1431px) {
+  /* .withoutdropdown{
+    display: none;
+  }
+  .withdropdown{
+    display: block;
+  } */
+}
+
+@media screen and (max-width: 987px) {
+  .button-mob{
+    border-radius: 0%;
+    border: #ffff;
+  }
+  .boder-p {
+    border-right: none;
+  }
+  
+   
+}
+
+@media screen and (max-width: 760px) {
+  .dot-border {
+    border-left: none;
+  }
+   
+}
+  @media screen and (max-width: 1050px) {
+    .socialmedia-icon{
+      display: none;
+    }
+    .withoutdropdown{
+      display: none;
+    }
+    .withdropdown{
+      display: block;
+    }
+    .mind-containt{
+      margin-left: 0%;
+      
+  }
+  }
+  @media screen and (max-width: 1000px) {
+     
+      
+  }
+  @media screen and (max-width: 995px) {
+  
+  }
+  
+  @media screen and (max-width: 986px){
+     
+      
+  }
+  
+  @media screen and (max-width: 810px){
+      
+  }
+
+ 
+
+  @media screen and (max-width: 730px) {
+    
+  }
+  @media screen and (max-width: 660px) {
+       
+ 
+  }
+
+ 
+     @media screen and (max-width: 545px) {
+      
+     }
+    
+   
+
+  @media screen and (max-width: 500px) {
+     
+     
+  }
+  @media screen and (max-width: 460px) {
+  }
